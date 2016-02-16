@@ -1,0 +1,39 @@
++-------+
+| BUILD |
++-------+
+Comments: 
+To build the files: make
+To clean: make clean
+To run the executable: ./warmup1 sort filename
+where filename is the name of the ASCII text file from which data is read. 
+And the valid format is: sign<tab>timestamp<tab>amount<tab>description
+
++------+
+| SKIP |
++------+
+None
+
++----------+
+| GRADING  |
++----------+
+a)doubly linked circular list: 40 points
+(b.1) Sort (file): 30 points
+(b.2) Sort (stdin):30 points
+missing required sections in readme file: none
+cannot compile:no
+make clean: cleans all .o files
+segmentation faults : none
+malformed input: none
+too slow: no
+bad commandline: usage information is diplayed on entering a wrong command
+Bad behaviour for random input: handled
++-------+
+| BUGS  |
++-------+
+Comments: No bugs
++-------+
+| OTHER |
++-------+
+Comments on design decisions: Used bubble sort for sorting the linkedlist
+Comments on deviation: 1. Sort Code privided by instructor
+2. http://pubs.opengroup.org/onlinepubs/009695399/functions/strfmon.html
